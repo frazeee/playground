@@ -106,15 +106,6 @@ function App() {
     handleGetTexts();
   }, [response]);
 
-  //   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  //   return emailRegex.test(email);
-  // };
-
-  // const validatePassword = (password) => {
-  //   const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
-  //   return passwordRegex.test(password);
-  // };
-
   return (
     <>
       <div className="container-fluid d-flex flex-column align-items-center justify-content-center">
